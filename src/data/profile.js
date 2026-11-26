@@ -3,7 +3,7 @@ export const profile = {
   name: "Rudra Ankur",
   email: "rudraankur7@gmail.com",
   github: "https://github.com/Rudra-Ankur",
-  linkedin: "https://rudra-ankur.github.io/My-Portfolio/?utm_source=chatgpt.com",
+  linkedin: "",
   location: "India",
 };
 

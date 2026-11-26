@@ -11,7 +11,9 @@ import Contact from "./pages/Contact.jsx";
 // Scrolls to the top whenever the route changes (useEffect runs after render).
 function ScrollToTop() {
   const { pathname } = useLocation();
-  useEffect(() => window.scrollTo(0, 0), [pathname]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return null;
 }
 
