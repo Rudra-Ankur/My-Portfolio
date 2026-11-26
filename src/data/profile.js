@@ -1,16 +1,31 @@
-// Edit this file to change what the site shows. No component code needed.
+
 export const profile = {
   name: "Rudra Ankur",
   email: "rudraankur7@gmail.com",
   github: "https://github.com/Rudra-Ankur",
-  linkedin: "https://www.linkedin.com/in/YOUR-LINKEDIN-ID", // TODO: replace
-  resume: import.meta.env.BASE_URL + "Rudra_Ankur_Resume.docx",
+  linkedin: "https://rudra-ankur.github.io/My-Portfolio/?utm_source=chatgpt.com",
+  location: "India",
 };
 
 export const skills = [
-  { group: "Languages", items: ["Python", "JavaScript", "Java", "SQL", "C (learning)"] },
-  { group: "Database", items: ["MySQL"] },
-  { group: "Frameworks and libraries", items: ["React (learning)", "Streamlit", "scikit-learn"] },
-  { group: "Tools", items: ["Git", "GitHub", "VS Code"] },
-  { group: "Also", items: ["Prompt engineering", "Rapid prototyping with AI tools", "Task automation"] },
+  {
+    group: "Programming Languages",
+    items: ["Python", "JavaScript", "C", "C++"],
+  },
+  {
+    group: "Web Development",
+    items: ["HTML", "CSS", "React", "Vite"],
+  },
+  {
+    group: "Database",
+    items: ["MySQL"],
+  },
+  {
+    group: "Tools & Technologies",
+    items: ["Git", "GitHub", "VS Code", "Streamlit"],
+  },
+  {
+    group: "Core Concepts",
+    items: ["Data Structures", "Algorithms", "Digital Logic", "DBMS"],
+  },
 ];
