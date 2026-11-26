@@ -4,7 +4,7 @@ export const profile = {
   email: "rudraankur7@gmail.com",
   github: "https://github.com/Rudra-Ankur",
   linkedin: "https://www.linkedin.com/in/YOUR-LINKEDIN-ID", // TODO: replace
-  resume: "/Rudra_Ankur_Resume.docx",
+  resume: import.meta.env.BASE_URL + "Rudra_Ankur_Resume.docx",
 };
 
 export const skills = [
